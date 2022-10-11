@@ -1,0 +1,14 @@
+{
+    "liveSassCompile.settings.includeItems": [
+        "sass/style.scss"
+    ],
+    "liveSassCompile.settings.formats": [
+
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css/"
+        }
+    ]
+}
