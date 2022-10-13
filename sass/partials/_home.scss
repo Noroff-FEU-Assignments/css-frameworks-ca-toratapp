@@ -1,0 +1,21 @@
+.home-carousel {
+    margin-top: 55px;
+
+    .carousel-item {
+        min-height: 287px;
+    }
+
+    .carousel-item img {
+        min-height: 287px;
+        object-fit: cover;
+    }
+}
+
+.home-h1 {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.home-main-paragraph {
+    margin: 15px 25px;
+}

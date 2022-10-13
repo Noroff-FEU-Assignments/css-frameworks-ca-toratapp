@@ -1,10 +1,16 @@
-header__search-form {
+.header__search-form {
+    width: 100%;
+
     .form-control {
-        border-radius: 0 !important;
+        border-radius: 0;
         border: 0;
+        width: auto;
+        flex: 1;
     }
 
-    
+    .btn {
+        border-radius: 0;
+    }
 
 }
 
