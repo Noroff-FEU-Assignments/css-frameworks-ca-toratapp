@@ -11,14 +11,15 @@
 }
 
 @media (min-width: 992px) {
- .navbar-nav {
-    margin-left: 2rem;
- }
-
- .header__search-form {
-    width: 245px;
-    .form-control {
-        width: 100%;
+    .navbar-nav {
+        margin-left: 2rem;
     }
-}
+
+    .header__search-form {
+        width: 245px;
+
+        .form-control {
+            width: 100%;
+        }
+    }
 }

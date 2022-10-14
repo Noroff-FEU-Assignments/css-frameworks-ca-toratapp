@@ -14,10 +14,12 @@
 .home-h1 {
     margin-left: 30px;
     margin-top: 30px;
+    max-width: 1108px;
 }
 
 .home-main-paragraph {
     margin: 15px 30px;
+    max-width: 1108px;
 }
 
 .card--border-top-radius {
@@ -31,7 +33,7 @@
 }
 
 .accordion {
-    margin: 70px 30px;
+    margin: 70px 30px 170px 30px;
 
     h2 {
         font-family: "Lato", sans-serif;
@@ -81,4 +83,36 @@
 
 .accordion > .card > .card-header {
     border-radius: 0;
+}
+
+.tablist-wrapper {
+   margin: 75px 30px 150px 30px;
+}
+
+.home-tablist {
+    margin: 30px 30px 0px 30px;
+}
+
+.home-tab-content {
+    padding: 30px 30px;
+    .accordion__share-socials {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 133px;
+        margin: 15px 0;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    .tablist__content-wrapper {
+        display: flex;
+        gap: 25px;
+    }
+
+    .tablist__paragraph-and-share {
+        flex: 3;
+    }
 }
