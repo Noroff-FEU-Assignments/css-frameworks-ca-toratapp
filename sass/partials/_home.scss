@@ -11,15 +11,15 @@
     }
 }
 
-.home-h1 {
+.std-h1 {
     margin-left: 30px;
     margin-top: 30px;
-    max-width: 1108px;
+    @extend .max-width-std;
 }
 
 .home-main-paragraph {
     margin: 15px 30px;
-    max-width: 1108px;
+    @extend .max-width-std;
 }
 
 .card--border-top-radius {
@@ -87,6 +87,7 @@
 
 .tablist-wrapper {
    margin: 75px 30px 150px 30px;
+   @extend .max-width-std;
 }
 
 .home-tablist {
@@ -95,6 +96,7 @@
 
 .home-tab-content {
     padding: 30px 30px;
+
     .accordion__share-socials {
         display: flex;
         justify-content: space-between;

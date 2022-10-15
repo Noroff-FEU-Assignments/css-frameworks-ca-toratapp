@@ -6,12 +6,16 @@ body {
     flex-direction: column;
 }
 
+.max-width-std {
+    max-width: 1130px;
+}
+
 .wrapper {
     flex: 1 0 auto;
 }
 
 .header__nav {
-    max-width: 1108px;
+    max-width: 1170px;
 }
 
 .nav-pills .nav-link.active  {
@@ -32,13 +36,34 @@ body {
 
 footer {
     background-color: white;
+
+    p {
+        font-weight: 700;
+        color: $gray-800;
+    }
+}
+
+.footer-sm-screens {
+    .footer__paragraphs {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 30px;
+    
+        p {
+            font-weight: 700;
+            color: $gray-800;
+        }
+    }
+
+    .footer__vimeo-youtube {
+        margin: 45px auto;
+    }
 }
 
 .footer__vimeo-youtube {
     display: flex;
     width: 100px;
     justify-content: space-between;
-    margin: 45px auto;
 
     i {
         font-size: 2.4rem;
@@ -46,13 +71,27 @@ footer {
     }
 }
 
-.footer__paragraphs {
-    display: flex;
+.footer-lg-screens {
     justify-content: space-between;
+    align-items: center;
+    @extend .max-width-std;
     margin: 15px 30px;
 
+    .footer__vimeo-youtube-wrapper {
+        flex: 1;
+    }
+
+    .footer__email {
+        flex: 1;
+        text-align: center;
+    }
+
+    .footer__copyright {
+        flex: 1;
+        text-align: right;
+    }
+
     p {
-        font-weight: 700;
-        color: $gray-800;
+        margin: 0;
     }
 }
