@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: radial-gradient(white, #E5E5E5);
   margin: 0;
@@ -116,6 +121,11 @@ footer p {
 
 .footer-lg-screens p {
   margin: 0;
+}
+
+h4 {
+  font-family: "Lato", sans-serif !important;
+  color: #0A0A0A !important;
 }
 
 .navbar-brand {
@@ -498,7 +508,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 h5, .h5 {
@@ -697,7 +707,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px;
+    max-width: 1160px;
   }
 }
 
@@ -2445,7 +2455,7 @@ select.form-control:focus::-ms-value {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 select.form-control[size], select.form-control[multiple] {
@@ -3483,7 +3493,7 @@ fieldset:disabled a.btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -4085,7 +4095,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 .input-group-sm > .form-control:not(textarea),
@@ -5525,13 +5535,13 @@ input[type="button"].btn-block {
 }
 
 .pagination-lg .page-item:first-child .page-link {
-  border-top-left-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .pagination-lg .page-item:last-child .page-link {
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .pagination-sm .page-link {
@@ -5724,7 +5734,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 @media (min-width: 576px) {
@@ -6531,7 +6541,7 @@ a.close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
   outline: 0;
 }
 
@@ -6565,8 +6575,8 @@ a.close.disabled {
           justify-content: space-between;
   padding: 1rem 1rem;
   border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: calc(0.5rem - 1px);
+  border-top-right-radius: calc(0.5rem - 1px);
 }
 
 .modal-header .close {
@@ -6601,8 +6611,8 @@ a.close.disabled {
           justify-content: flex-end;
   padding: 0.75rem;
   border-top: 1px solid #dee2e6;
-  border-bottom-right-radius: calc(0.3rem - 1px);
-  border-bottom-left-radius: calc(0.3rem - 1px);
+  border-bottom-right-radius: calc(0.5rem - 1px);
+  border-bottom-left-radius: calc(0.5rem - 1px);
 }
 
 .modal-footer > * {
@@ -6792,7 +6802,7 @@ a.close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 .popover .arrow {
@@ -6800,7 +6810,7 @@ a.close.disabled {
   display: block;
   width: 1rem;
   height: 0.5rem;
-  margin: 0 0.3rem;
+  margin: 0 0.5rem;
 }
 
 .popover .arrow::before, .popover .arrow::after {
@@ -6839,7 +6849,7 @@ a.close.disabled {
   left: calc(-0.5rem - 1px);
   width: 0.5rem;
   height: 1rem;
-  margin: 0.3rem 0;
+  margin: 0.5rem 0;
 }
 
 .bs-popover-right > .arrow::before, .bs-popover-auto[x-placement^="right"] > .arrow::before {
@@ -6893,7 +6903,7 @@ a.close.disabled {
   right: calc(-0.5rem - 1px);
   width: 0.5rem;
   height: 1rem;
-  margin: 0.3rem 0;
+  margin: 0.5rem 0;
 }
 
 .bs-popover-left > .arrow::before, .bs-popover-auto[x-placement^="left"] > .arrow::before {
@@ -6915,8 +6925,8 @@ a.close.disabled {
   color: #e92569;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: calc(0.5rem - 1px);
+  border-top-right-radius: calc(0.5rem - 1px);
 }
 
 .popover-header:empty {
@@ -7435,7 +7445,7 @@ button.bg-dark:focus {
 }
 
 .rounded-lg {
-  border-radius: 0.3rem !important;
+  border-radius: 0.5rem !important;
 }
 
 .rounded-circle {
@@ -11069,8 +11079,73 @@ a.text-dark:hover, a.text-dark:focus {
           flex: 3;
 }
 
+.news-container .row {
+  margin-left: 0;
+  margin-right: 0;
+  gap: 30px;
+}
+
 .news-h1 {
-  margin-top: 85px;
+  margin-top: 95px;
+  margin-bottom: 50px;
+}
+
+.news__col-container .news-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.news__col-container p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.news__col-container .col-md-6,
+.news__col-container .col-lg-3 {
+  padding-left: 0;
+  padding-right: 0;
+  width: auto !important;
+}
+
+.news__col-container img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.news__btn {
+  position: relative;
+  text-transform: uppercase;
+  width: auto;
+  border: none;
+}
+
+.news__btn:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  background: #767676;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.pagination-bottom {
+  margin-top: 55px;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    max-width: 47.8%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -11092,6 +11167,9 @@ a.text-dark:hover, a.text-dark:focus {
   .header__search-form .form-control {
     width: 100%;
   }
+  .col-lg-3 {
+    max-width: 22.5%;
+  }
 }
 
 @media (min-width: 1190px) {
@@ -11107,6 +11185,12 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .footer-lg-screens {
     margin: 15px auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    max-width: 23%;
   }
 }
 /*# sourceMappingURL=style.css.map */

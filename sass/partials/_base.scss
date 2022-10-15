@@ -1,3 +1,8 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     background: radial-gradient(white, $gray-500);
     margin: 0;
@@ -9,6 +14,8 @@ body {
 .max-width-std {
     max-width: 1130px;
 }
+
+$border-radius-lg: 0.5rem;
 
 .wrapper {
     flex: 1 0 auto;
