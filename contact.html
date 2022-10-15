@@ -44,12 +44,12 @@
                 <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="news.html"
-                  >News <span class="sr-only">(current)</span></a
-                >
+                <a class="nav-link" href="news.html">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link active" href="contact.html"
+                  >Contact <span class="sr-only">(current)</span></a
+                >
               </li>
             </ul>
             <form class="header__search-form form-inline my-2 my-lg-0">
@@ -69,8 +69,60 @@
           </div>
         </nav>
       </header>
-      <main class="news-container container">
-        <h1 class="contact-h1">Contact</h1>
+      <main class="contact-container container">
+        <div class="form-and-contact-info">
+          <div class="contact-info col-md">
+            <div class="contact-info__email">
+              <i class="fa-solid fa-envelope"></i>
+              <p>hello@yay.com</p>
+            </div>
+            <div class="contact-info__phone">
+              <i class="fa-solid fa-phone-flip"></i>
+              <p>123 456 7890</p>
+            </div>
+            <div class="contact-info__address">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="contact-info__address__p-container">
+                <p>123 Some Street</p>
+                <p>Somewhere</p>
+                <p>Some City</p>
+                <p>10000</p>
+              </div>
+            </div>
+          </div>
+          <h1 class="contact-h1">Submit your details</h1>
+          <form class="contact-form col-md">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="website">Website</label>
+              <input type="text" class="form-control" id="website" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="6"></textarea>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="checkbox" />
+              <label class="form-check-label" for="checkbox"
+                >Allow us to sell your personal details to whomever we
+                want</label
+              >
+            </div>
+            <button type="submit" class="contact-form__btn btn">Submit</button>
+          </form>
+        </div>
       </main>
     </div>
     <footer></footer>
@@ -89,7 +141,6 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
-    <script src="js/home.js"></script>
     <script src="js/util.js"></script>
     <script src="js/components/footer.js"></script>
   </body>

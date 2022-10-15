@@ -32,6 +32,24 @@
     .col-lg-3 {
         max-width: 22.5%;
     }
+
+    .contact-info {
+        order: 3;
+    }
+
+    .contact-h1 {
+        order: 1;
+    }
+
+    .contact-form {
+        order: 2;
+    }
+
+    .contact-h1 {
+        margin-top: 0;
+        margin-bottom: 30px;
+
+    }
 }
 
 @media (min-width: 1190px) {
