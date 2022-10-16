@@ -11,6 +11,10 @@
     margin-bottom: 50px;
 }
 
+.page-link {
+    font-weight: 700;
+}
+
 .news__col-container {
     .news-col {
         display: flex;
@@ -39,6 +43,7 @@
     text-transform: uppercase;
     width: auto;
     border: none;
+    font-weight: 700;
 }
 
 .news__btn:before {

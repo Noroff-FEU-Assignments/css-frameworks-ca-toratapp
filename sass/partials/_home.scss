@@ -11,19 +11,15 @@
     }
 }
 
-.rounded-and-shadow-indicators {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-    border-radius: 0.25rem !important;
-}
-
-#indicator-1, #indicator-2, #indicator-3 {
-    @extend .rounded-and-shadow-indicators;
-}
-
 .carousel-indicators li {
     height: 30px;
     width: 30px;
     opacity: 1;
+    background-clip: border-box;
+    border-top: 0;
+    border-bottom: 0;
+    margin-right: 13px;
+    margin-right: 13px;
 }
 
 .carousel-indicators .active {
@@ -49,6 +45,14 @@
 .card--border-bottom-radius {
     border-bottom-left-radius: 0.5rem !important;
     border-bottom-right-radius: 0.5rem !important;
+}
+
+.home__scare-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 133px;
+    color: $navbar-light-active-color !important;
 }
 
 .accordion {
@@ -80,10 +84,6 @@
     }
 
     .accordion__share-socials {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 133px;
         margin: 15px auto;
 
         span {
@@ -116,12 +116,8 @@
 .home-tab-content {
     padding: 30px 30px;
 
-    .accordion__share-socials {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 133px;
-        margin: 15px 0;
+    .tablist__share-socials {
+        margin: 15px 0 0 0;
 
         span {
             font-weight: 700;
@@ -135,5 +131,11 @@
 
     .tablist__paragraph-and-share {
         flex: 3;
+        display: flex;
+        flex-direction: column;
+
+        p {
+            flex: 1;
+        }
     }
 }
