@@ -25,7 +25,9 @@
   <body>
     <div class="wrapper">
       <header class="bg-light fixed-top">
-        <nav class="header__nav navbar navbar-expand-lg navbar-light mx-auto">
+        <nav
+          class="header__nav navbar navbar-expand-lg navbar-light mx-auto py-3"
+        >
           <a class="navbar-brand" href="index.html">The YAY Company</a>
           <button
             class="navbar-toggler"
@@ -94,24 +96,33 @@
           <form class="contact-form col-md">
             <div class="form-group">
               <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" />
+              <input type="text" class="form-control p-4" id="name" />
             </div>
             <div class="form-group">
               <label for="email">Email</label>
               <input
                 type="email"
-                class="form-control"
+                class="form-control p-4"
                 id="email"
                 aria-describedby="emailHelp"
               />
             </div>
             <div class="form-group">
               <label for="website">Website</label>
-              <input type="text" class="form-control" id="website" />
+              <div class="website-https-and-input-container">
+                <div class="contact-website__https-field d-none d-lg-block">
+                  https://
+                </div>
+                <input type="text" class="form-control p-4" id="website" />
+              </div>
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea class="form-control" id="message" rows="6"></textarea>
+              <textarea
+                class="form-control p-4"
+                id="message"
+                rows="6"
+              ></textarea>
             </div>
             <div class="form-group form-check">
               <input type="checkbox" class="form-check-input" id="checkbox" />

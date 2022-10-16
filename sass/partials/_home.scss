@@ -1,5 +1,5 @@
 .home-carousel {
-    margin-top: 55px;
+    margin-top: 70px;
 
     .carousel-item {
         min-height: 287px;
@@ -9,6 +9,25 @@
         min-height: 287px;
         object-fit: cover;
     }
+}
+
+.rounded-and-shadow-indicators {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border-radius: 0.25rem !important;
+}
+
+#indicator-1, #indicator-2, #indicator-3 {
+    @extend .rounded-and-shadow-indicators;
+}
+
+.carousel-indicators li {
+    height: 30px;
+    width: 30px;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: $primary;
 }
 
 .std-h1 {
